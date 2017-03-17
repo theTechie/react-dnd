@@ -30,6 +30,7 @@ const Examples = {
   CHESSBOARD_TUTORIAL_APP: require('../examples/00 Chessboard/Tutorial App').default,
   DUSTBIN_SINGLE_TARGET: require('../examples/01 Dustbin/Single Target').default,
   DUSTBIN_IFRAME: require('../examples/01 Dustbin/Single Target in iframe').default,
+  DUSTBIN_COPY_OR_MOVE: require('../examples/01 Dustbin/Copy or Move').default,
   DUSTBIN_MULTIPLE_TARGETS: require('../examples/01 Dustbin/Multiple Targets').default,
   DUSTBIN_STRESS_TEST: require('../examples/01 Dustbin/Stress Test').default,
   DRAG_AROUND_NAIVE: require('../examples/02 Drag Around/Naive').default,
@@ -41,7 +42,7 @@ const Examples = {
   SORTABLE_STRESS_TEST: require('../examples/04 Sortable/Stress Test').default,
   CUSTOMIZE_HANDLES_AND_PREVIEWS: require('../examples/05 Customize/Handles and Previews').default,
   CUSTOMIZE_DROP_EFFECTS: require('../examples/05 Customize/Drop Effects').default,
-  CUSTOMIZE_FILE_DND: require('../examples/05 Customize/Native Files').default
+  OTHER_NATIVE_FILES: require('../examples/06 Other/Native Files').default
 };
 
 export default class IndexPage extends Component {
